@@ -50,18 +50,15 @@ h3 {
   font-size: 1.4em;
 }
 
-.content, .arrow {
-  display: inline-block;
-}
-
 .content {
+  display: inline-block;
   width: 80%;
   padding: 20px;
 }
 
 .arrow {
-  /* float: right; */
-  padding: 0px 0px 0px 35px;
+  float: right;
+  padding: 30px 10px 0px 0px;
 }
 
 .arrow-left {
