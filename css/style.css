@@ -23,10 +23,7 @@ nav {
 
 .restaurant-list {
   padding-top: 50px;
-}
-
-.location:nth-child(10) {
-  border-bottom-style: none;
+  background-color: lightgray;
 }
 
 .location {
@@ -39,8 +36,8 @@ nav {
   background-color: #b2b2b2;
 }
 
-.restaurant-list {
-  background-color: lightgray;
+.location:nth-child(10) {
+  border-bottom-style: none;
 }
 
 h1 {
@@ -58,12 +55,13 @@ h3 {
 }
 
 .content {
-  margin: 20px;
+  width: 80%;
+  padding: 20px;
 }
 
 .arrow {
-  float: right;
-  padding: 30px 15px 0px 0px;
+  /* float: right; */
+  padding: 0px 0px 0px 35px;
 }
 
 .arrow-left {
